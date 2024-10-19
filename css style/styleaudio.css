@@ -1,0 +1,55 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+   height: 100%;
+}
+
+
+.box-con {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in-box {
+    background: rgb(255, 132, 100);
+    background: linear-gradient(
+    90deg,
+        rgba(255, 132, 100, 1) 0%,
+        rgba(253, 105, 165, 1) 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2); 
+    padding: 20px;
+    border: 3px solid gold;
+    border-radius: 20px;
+    width: 450px;
+}
+
+.in-box audio {
+   width: 100%;
+   border-radius: 30px;
+}
+
+.in-box audio:hover{
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.in-box h2 {
+    color: black;
+
+}
+
+.in-box h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.in-box hr{
+   border: 2px solid rgb(56, 55, 55);
+}
