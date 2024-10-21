@@ -12,8 +12,8 @@
 }
 
 .card-body {
-    background: url("https://images.unsplash.com/photo-1722189226261-cce6d5f49f25?q=80&w=1868&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no repet;
-    bacground-position: center;
+    background: url("https://images.unsplash.com/photo-1711261817080-8f064416206c?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    background-position: center;
     background-size: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2); 
     padding: 25px;
@@ -50,7 +50,7 @@ button#inc#111 {
 }
 
 button#reset {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-right: 210px;
     border: 2px solid black;
     font-weight: bold;
@@ -68,9 +68,10 @@ button#reset:hover {
 
 
 .mar{
-    margin-top: 70px;
+    margin-top: 60px;
     font-size: 22px;
-    color: black;
+    backdrop-filter: blur(4px);
+    color: rgb(0, 0, 0);
     font-family: Baskerville Old Face;
     font-weight: bold;
 }
